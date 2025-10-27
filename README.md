@@ -41,7 +41,7 @@ En general,, si bien abas posiciones existe con propositos distintos, Home1 (la 
 
 Por tanto, se puede considerar la mejor(o al menos la que es utilizada de forma normal en el robot) como Home1, porque garantiza que todos los ejes están en su referencia original y permite que el controlador y los programas trabajen con los valores que fueron definidos en fábrica. Además, emplear consistentemente Home1 favorece la trazabilidad, repetibilidad y mantenimiento predictivo del sistema.
 
-## 3. Procedimiento detallado para movimientos manuales
+## Procedimiento detallado para movimientos manuales
 
 Este procedimiento describe cómo realizar movimientos manuales en el robot **Yaskawa Motoman MH6**, incluyendo el cambio entre modos de operación (*articulaciones* y *cartesiano*) y la ejecución de traslaciones y rotaciones en los ejes **X, Y, Z**.
 
@@ -92,7 +92,7 @@ Permite mover **cada eje (J1 a J6)** de forma individual.
 
 ---
 
-## 4. Niveles de velocidad para movimientos manuales
+## Explicacion niveles de velocidad para movimientos manuales
 
 El controlador del robot **Motoman MH6** permite seleccionar **tres niveles de velocidad** en el modo manual (*Teach Mode*). Estos niveles se ajustan directamente desde el **teach pendant**, y su estado se visualiza en una **barra de velocidad** en la pantalla principal.
 
@@ -122,3 +122,34 @@ El controlador del robot **Motoman MH6** permite seleccionar **tres niveles de v
 5. Ejecutar el movimiento deseado.
 
 ---
+## 🔁 Diagrama de flujo 
+```mermaid
+---
+config:
+  theme: redux
+title: Motoman MH6 RoboDK Polar Trajectory + Text Writing
+---
+flowchart TD
+    START(["START"])
+    INIT["Initialize RoboDK robot and frame"]
+    CONFIG["Configurate speed, rounding, reference frames and tool"]
+    SAFEMOVE["Move robot to Home Abs & Home (safe positions)"]
+    POLAR["Draw polar curve"]
+    MOVE1["Move down polar path"]
+    SANTIAGO["Draw name: 'Santiago'"]
+    MOVE2["Move down first name"]
+    SAMUEL["Draw name: 'Samuel' "]
+    RETURN["Return robot to Home & Home Abs"]
+    END["Print '¡Terminado!'"]
+    FINISH(["END"])
+    START --> INIT
+    INIT --> CONFIG
+    CONFIG -->SAFEMOVE
+    SAFEMOVE --> POLAR
+    POLAR --> MOVE1
+    MOVE1 --> SANTIAGO
+    SANTIAGO --> MOVE2
+    MOVE2 --> SAMUEL
+    SAMUEL --> RETURN
+    RETURN --> END
+    END -->FINISH
