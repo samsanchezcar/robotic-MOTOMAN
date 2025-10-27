@@ -310,8 +310,6 @@ Esta función:
 ### 🔁 Diagrama de flujo
 ```mermaid
 ---
-config:
-  theme: neutral
 title: Motoman MH6 RoboDK Polar Trajectory + Text Writing
 ---
 flowchart TD
