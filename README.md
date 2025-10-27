@@ -14,7 +14,7 @@
 - **Samuel David Sanchez Cardenas** — Desarrollo, simulación y documentación.  
   [![GitHub samsanchezcar](https://img.shields.io/badge/GitHub-%40samsanchezcar-181717?style=for-the-badge&logo=github)](https://github.com/samsanchezcar)
 - **Santiago Ávila** — Colaboración en diseño y pruebas.  
-  [![GitHub Santiago Ávila](https://img.shields.io/badge/GitHub-%40SantiagoAvila-181717?style=for-the-badge&logo=github)](https://github.com/Santiago-Avila)
+  [![GitHub Santiago Ávila](https://img.shields.io/badge/GitHub-Search--Santiago%20%C3%81vila-181717?style=for-the-badge&logo=github)](https://github.com/search?q=Santiago+Avila)
 
 ---
 
@@ -54,6 +54,15 @@ Los manipuladores industriales son herramientas clave en la automatización indu
 ---
 
 ## Cuadro comparativo de características técnicas
+
+<div align="center">
+<table>
+<tr>
+<td><img src="./src/monoman_dof.png" width="300" /></td>
+<td><img src="./src/abb_dof.png" width="300" /></td>
+</tr>
+</table>
+</div>
 
 | Característica                     | **Yaskawa Motoman MH6** | **ABB IRB 140** |
 |------------------------------------|--------------------------|-----------------|
