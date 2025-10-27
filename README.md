@@ -35,9 +35,9 @@ Esta posicion normalmente no debe ser modificada ni eliminada, solo en situacion
 
 La posición **Home2** por su parte se utiliza como punto de control para la calibración de *Home*, a menudo cuando ocurre la alarma 4107 (Out of Range Abso Data). La ubicación predeterminada de SECOND HOME (Punto especificado) para el robot es donde los datos de pulso para cada eje se muestran como todos ceros y las flechas de alineación o las teclas para cada eje están alineadas.
 
-***¿Cual posicion es mejor?***
+***¿Cual posición es mejor?***
 
-En general,, si bien abas posiciones existe con propositos distintos, Home1 (la “Home Position” de fábrica) es la ideal, pues representa la calibración original de todos los ejes y sirve como referencia precisa para la repetibilidad, mantenimiento y diagnósticos. Home2 es útil como respaldo o posición de chequeo, pero no reemplaza la Home1 salvo en situaciones de fallo o recalibración de la posicion Home1.
+En general, si bien ambas posiciones existen con propositos distintos, Home1 (la “Home Position” de fábrica) es la ideal, pues representa la calibración original de todos los ejes y sirve como referencia precisa para la repetibilidad, mantenimiento y diagnósticos. Home2 es útil como respaldo o posición de chequeo, pero no reemplaza la Home1 salvo en situaciones de fallo o recalibración de la posicion Home1.
 
 Por tanto, se puede considerar la mejor(o al menos la que es utilizada de forma normal en el robot) como Home1, porque garantiza que todos los ejes están en su referencia original y permite que el controlador y los programas trabajen con los valores que fueron definidos en fábrica. Además, emplear consistentemente Home1 favorece la trazabilidad, repetibilidad y mantenimiento predictivo del sistema.
 
