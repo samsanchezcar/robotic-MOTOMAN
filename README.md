@@ -359,7 +359,7 @@ flowchart TD
 
 ### Código desarrollado en RoboDK
 
-El código completo se encuentra en: [/RoboDK/polar_trajectory.py](./RoboDK/polar_trajectory.py)
+El código completo se encuentra en el archivo de RoboDK dentro de la carpeta con el mismo nombre.
 
 ---
 
