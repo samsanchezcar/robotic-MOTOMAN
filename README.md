@@ -18,7 +18,7 @@
 | **Alcance máximo**                 | 1422 mm                  | 810 mm          |
 | **Grados de libertad (ejes)**      | 8                        | 6               |
 | **Repetibilidad**                  | ±0.08 mm                 | ±0.03 mm        |
-| **Velocidad máxima de ejes**       | J1: 220°/s<br>J4–J5: 410°/s<br>J6: 610°/s | Ejes 1–2: 200°/s (aprox.) |
+| **Velocidad máxima de ejes**       | S-U: 220°/s<br>L: 200°/s<br>R-B: 410°/s<br>T: 610°/s | Ejes 1–2: 200°/s<br>Eje 3: 260°/s<br>Ejes 4-5: 360°/s<br>Eje 6: 450°/s|
 | **Peso del robot**                 | 130 kg (aprox.)          | 98 kg (aprox.)  |
 | **Controlador típico**             | DX100                    | IRC5            |
 | **Aplicaciones típicas**           | Manufactura aditiva, ensamblado, dispensado , soldadura ligera, manipulacion de materiales | Soldadura por arco, ensamblaje, manipulación, embalaje, pulido |
