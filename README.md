@@ -27,13 +27,13 @@
 
 ---
 
-## Caracteristicas posiciones Home y Second Home
+## Características posiciones Home y Second Home
 
-La posicion **Home** es la postura de calibracion del manipulador, con referencias de eje como chaveteros o flechas de alineacion, donde se registran los datos absolutos del codificador de cada eje. Esto permite que el controlador lea todos los 0’ para cada eje bajo la posición actual en esta postura.
+La posición **Home** es la postura de calibración del manipulador, con referencias de eje como chaveteros o flechas de alineación, donde se registran los datos absolutos del codificador de cada eje. Esto permite que el controlador lea todos los 0’ para cada eje bajo la posición actual en esta postura.
 
-Esta posicion normalmente no debe ser modificada ni eliminada, solo en situaciones de reemplazar piezas del manipulador referentes al motor/codificador, placa de circuitos, desvio de las marcas por impactos, porblemas de perdida de energía, etc.
+Esta posicion normalmente no debe ser modificada ni eliminada, solo en situaciones de reemplazar piezas del manipulador referentes al motor/codificador, placa de circuitos, desvio de las marcas por impactos, problemas de perdida de energía, etc.
 
-La posicion **Home2** por su parte se utiliza como punto de control para la calibracion de *Home*, a menudo cuando ocurre la alarma 4107 (Out of Range Abso Data). La ubicación predeterminada de SECOND HOME (Punto especificado) para el robot es donde los datos de pulso para cada eje se muestran como todos ceros y las flechas de alineación o las teclas para cada eje están alineadas.
+La posición **Home2** por su parte se utiliza como punto de control para la calibración de *Home*, a menudo cuando ocurre la alarma 4107 (Out of Range Abso Data). La ubicación predeterminada de SECOND HOME (Punto especificado) para el robot es donde los datos de pulso para cada eje se muestran como todos ceros y las flechas de alineación o las teclas para cada eje están alineadas.
 
 ***¿Cual posicion es mejor?***
 
